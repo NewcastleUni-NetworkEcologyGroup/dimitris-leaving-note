@@ -48,12 +48,9 @@
             </div>
         </div>
 
-        <p><audio id="loop-limited" controls="controls" autoplay style="width: 6em;height:20px;"><source src="https://github.com/NewcastleUni-NetworkEcologyGroup/dimitris-leaving-note/tree/main/audio/Zorba.mid" type="audio/mid" /></audio><br />
-            <script>
-            var loopLimit = 5;
-            var loopCounter = 0;
-            document.getElementById('loop-limited').addEventListener('ended', function(){if (loopCounter < loopLimit){this.currentTime = 0;this.play();loopCounter++;}
-            }, false);</script></p>
+        <video controls="" autoplay="" name="media">
+            <source src="https://github.com/NewcastleUni-NetworkEcologyGroup/dimitris-leaving-note/tree/main/audio/Zorba.mid" type="audio/rtp-midi">
+        </video>
 
     </body>
 </html>
